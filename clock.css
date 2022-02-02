@@ -1,0 +1,29 @@
+body{
+    background-image: linear-gradient(to right,rgb(5, 47, 80), rgb(34, 29, 29));
+overflow-x: hidden;
+color: #fff;
+}
+.body-of-clock{
+    margin: auto;
+    width: 43rem;
+    border: 1.4px solid #fff;
+    height: 230px;
+    border-radius: 30px;
+  vertical-align: middle;
+  margin-top: 30vh;
+}
+.clock-time{
+    font-size: 7rem;
+    margin-top: -75px;
+    width: 23%;
+    height: 100%;
+}
+.inside-of-clock{
+    display: flex;
+    flex-direction: row;
+}
+.day{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 0.5em;
+}
